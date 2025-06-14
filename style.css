@@ -39,9 +39,18 @@ body{
 }
 .nav-third{
     display: flex;
-    gap: 25px    ;
+    align-items: center;
+    justify-content: center;
 }
 .fa-user{
     font-size: 2rem;
     color: var(--brown);
+}
+.view-cart{
+    border: 1px solid var(--gray);
+    padding: 10px 20px;
+}
+.child1{
+    display: flex;
+    gap: 25px   ;
 }
