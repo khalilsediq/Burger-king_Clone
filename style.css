@@ -51,10 +51,11 @@ body{
 .view-cart{
     border: 1px solid var(--gray);
     padding: 10px 20px;
+    background-color: var(--creamy);
 }
-.view-cart a{
+.text{
     text-decoration: none;
-    color: var(--gray);
+  color: var(--brown);
 }
 .child1{
     display: flex;
