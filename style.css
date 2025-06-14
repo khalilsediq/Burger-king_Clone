@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --creamy: #f8f1e7;
+    --brown: #502314;
+    --gray: #dfd8cf;
+}
+@font-face {
+    font-family: 'flame regular';
+    src: url(./style/fonts/FlameRegular.otf);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: var(--creamy);
+  
+}
+.navbar-nav{
+    display: flex;
+   justify-content: space-evenly;
+   width: auto;
+   height: auto;
+    padding: 20px;
+    border-bottom: 1px solid var(--gray);
+}
+.logo-img{
+    width: 170px;
+    height: 22px;
+}
+.fa-bars{
+    font-size: 2rem;
+    color: var(--brown);
+}
+.nav-third{
+    display: flex;
+    gap: 25px    ;
+}
+.fa-user{
+    font-size: 2rem;
+    color: var(--brown);
+}
