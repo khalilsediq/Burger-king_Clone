@@ -55,7 +55,7 @@ body{
 }
 .text{
     text-decoration: none;
-  color: var(--brown);
+  color: #737376;
 }
 .child1{
     display: flex;
