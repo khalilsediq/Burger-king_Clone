@@ -45,10 +45,16 @@ body{
 .fa-user{
     font-size: 2rem;
     color: var(--brown);
+    margin: 10px 0px 0px;
+    
 }
 .view-cart{
     border: 1px solid var(--gray);
     padding: 10px 20px;
+}
+.view-cart a{
+    text-decoration: none;
+    color: var(--gray);
 }
 .child1{
     display: flex;
