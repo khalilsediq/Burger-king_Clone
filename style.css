@@ -270,3 +270,14 @@ width: 300px;
     font-family: 'flame-regularSans';
     color: var(--gray);
 }
+
+/* footter section starteed */
+.sec-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    bottom:  0;
+}
