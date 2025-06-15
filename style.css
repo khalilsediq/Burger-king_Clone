@@ -249,3 +249,24 @@ width: 300px;
     font-family: 'flame-regularSans';
     margin: 32px 0px 0px;
 }
+.fotter-sec{
+    background-color: var(--brown);
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+.parent-fottter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.parent-child-fotter p{
+    font-size: 1.2rem;
+    font-family: 'flame-regularSans';
+    color: var(--gray);
+}
